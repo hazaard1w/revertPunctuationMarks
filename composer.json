@@ -1,0 +1,20 @@
+{
+  "name": "punctuation/revertPunctuationMarks",
+  "description": "Метод, который принимает на вход строку и меняет порядок всех знаков препинания (любых небуквенных и нечисловых символов) на обратный.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vadim Kondratyev",
+      "email": "hwnd32@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "punctuation\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
