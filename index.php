@@ -8,5 +8,6 @@ $punctRevertManager = new PunctRevertManager();
 
 
 //////////////
+////////
 
 echo $punctRevertManager->revertPunctuationMarks("Привет! Как твои дела?");
